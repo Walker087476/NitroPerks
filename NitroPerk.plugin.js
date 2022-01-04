@@ -1,8 +1,8 @@
 /**
- * @name NitroPerks
- * @website https://github.com/Shimoro-Rune/NitroPerks
- * @source https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerks.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerks.plugin.js
+ * @name NitroPerk
+ * @website https://github.com/Shimoro-Rune/NitroPerk
+ * @source https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerk.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerk.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -30,7 +30,7 @@
 module.exports = (() => {
     const config = {
         "info": {
-            "name": "NitroPerks",
+            "name": "NitroPerk",
             "authors": [{
                 "name": "lemons",
                 "discord_id": "407348579376693260",
@@ -43,8 +43,8 @@ module.exports = (() => {
             }],
             "version": "1.3.7",
             "description": "Set clientsided animated avatar and profile banner, share your screen at 60fps 1080P and use cross-server and animated emojis everywhere! You still won't be able to upload 100MB files though :<",
-            "github": "https://github.com/Shimoro-Rune/NitroPerks",
-            "github_raw": "https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerks.plugin.js"
+            "github": "https://github.com/Shimoro-Rune/NitroPerk",
+            "github_raw": "https://raw.githubusercontent.com/Shimoro-Rune/NitroPerks/main/NitroPerk.plugin.js"
         },
 		"changelog": [
 			{
@@ -62,7 +62,7 @@ module.exports = (() => {
 				]
 			}
 		],
-        "main": "NitroPerks.plugin.js"
+        "main": "NitroPerk.plugin.js"
     };
 
     return !global.ZeresPluginLibrary ? class {
